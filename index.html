@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fő oldal</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="mester.css">
 
 </head>
@@ -16,7 +16,24 @@
     <h1 class="h1">Yellow Iron</h1>
 </div>
 
-<div class="topnav">
+<div class="hamnav">
+  <p class="def">Gyakorlatok</p>
+  <div id="myLinks">
+    <a href="#lehuzas">Felső lehúzás</a>
+    <a href="#fekvotamasz">Fekvőtámasz</a>
+    <a href="#guggolas">Guggolás padra</a>
+    <a href="#evezes">Evezés gépen ülve</a>  
+    <a href="#kitores">Kitörés</a>
+    <a href="#vallbolnyomas">Vállból nyomás</a>
+    <a href="#felhuzas">Felhúzás</a> 
+    <a href="#tolodzkodas">Tolódzkodás</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="hamburgerFunc()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!--<div class="topnav">
   <a href="#lehuzas">Felső lehúzás</a>
   <a href="#fekvotamasz">Fekvőtámasz</a>
   <a href="#guggolas">Guggolás padra</a>
@@ -25,7 +42,7 @@
   <a href="#vallbolnyomas">Vállból nyomás</a>
   <a href="#felhuzas">Felhúzás</a> 
   <a href="#tolodzkodas">Tolódzkodás</a>
-</div>
+</div>-->
    
 
 <H1 id="lehuzas">Felső lehúzás</H1>
@@ -88,6 +105,15 @@ Nyomd ki mind a két súlyzót egyszerre a fejed fölé. A gyakorlat végzése k
   function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+  }
+
+  function hamburgerFunc() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
   }
   </script>
 
