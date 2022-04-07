@@ -1,0 +1,255 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #0b0c10;
+}
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+    position: fixed;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(194, 179, 129, 100);
+    font-family: 'Courier New', monospace;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: rgba(194, 179, 129, 100);
+    background: rgba(0,0,0,0.7 );
+    border-radius: 6px;
+    
+}
+
+
+.alpha{
+    font-size: 11px;
+    color: rgba(194, 179, 129, 100);
+    text-align:center;
+}
+
+.parallax {
+    background-image: url("ezleszaz.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.nemkamu h1#asd{
+    text-align: center;
+    padding-top: 300px !important;
+    color: rgba(194, 179, 129, 100);
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.nemkamu h1#asd2{
+    text-align: center;
+    color: rgba(194, 179, 129, 100);
+    font-size: 240px;
+    margin: 0px;
+    padding: 0px;
+}
+.rolunk{
+    color: rgba(194, 179, 129, 100);
+}
+.nyitvatartas{
+    color: rgba(194, 179, 129, 100);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #555;
+    color: white;
+  }
+.szgya img{
+    width: 80px;
+    float: left;
+    margin-left: 28%;
+}
+@media only screen and (min-device-height: 950px)
+{
+    .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #555;
+    color: white;
+  }
+.szgya img{
+    width: 80px;
+    float: left;
+    margin-left: 28%;
+}
+}
+@media only screen and (min-device-height: 851px) {
+    .rolunk h1{
+        text-align: center;
+
+        font-size: 50px; 
+    }
+    .rolunk p{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 25px; 
+    }
+    .nyitvatartas h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .nyitvatartas p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .alpha h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-device-height: 700px) {
+    .rolunk h1{
+        text-align: center;
+        font-size: 30px; 
+    }
+    .rolunk p{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px; 
+    }
+    .nyitvatartas h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .nyitvatartas p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .alpha h1{
+        font-size: 30px;
+    }
+    nav .logo{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-device-height: 850px) and (min-device-height: 701px) {
+    .rolunk h1{
+        text-align: center;
+
+        font-size: 40px; 
+    }
+    .rolunk p{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px; 
+    }
+    .nyitvatartas h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .nyitvatartas p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .alpha h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-device-width: 1366px){
+    .parallax {
+      background-attachment: scroll;
+      min-height: 85px;
+      background-image: none;
+
+    }
+    nav ul{
+        display: none;
+    }
+    nav .logo{
+        float: none;
+        font-size: 26px;
+        font-weight: bold;
+        color: rgba(194, 179, 129, 100);
+        font-family: 'Courier New', monospace;
+        text-align: center;
+    }
+    .nyitvatartas{
+        text-align: center;
+    }
+    .rolunk{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .alpha p{
+        font-size:medium
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+        background: #555;
+        color: white;
+      }
+    .szgya img{
+        width: 80px;
+        float: left;
+        margin-left: 28%;
+    }
+  }
+  .footer{
+      text-align: center;
+  }

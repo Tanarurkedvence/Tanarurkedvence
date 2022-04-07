@@ -1,0 +1,426 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #0b0c10;
+}
+
+
+nav{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(194, 179, 129, 100);
+    font-family: 'Courier New', monospace;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: rgba(194, 179, 129, 100);
+    background: rgba(0,0,0,0.7 );
+    border-radius: 6px;
+    
+}
+
+.Guggolas{
+    text-align: center;
+}
+
+.Guggolas h1{
+    color: rgba(194, 179, 129, 100);
+    padding-top: 13px;
+}
+
+.Guggolas #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Guggolas #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Evezes{
+    text-align: center;
+}
+
+.Evezes h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Evezes #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Evezes #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Fekvotamasz{
+    text-align: center;
+}
+
+.Fekvotamasz h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Fekvotamasz #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Fekvotamasz #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Felhuzas{
+    text-align: center;
+}
+
+.Felhuzas h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Felhuzas #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Felhuzas #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Kitores{
+    text-align: center;
+}
+
+.Kitores h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Kitores #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Kitores #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Vallbolnyomas{
+    text-align: center;
+}
+
+.Vallbolnyomas h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Vallbolnyomas #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Vallbolnyomas #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Lehuzas{
+    text-align: center;
+}
+
+.Lehuzas h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Lehuzas #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Lehuzas #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+
+.Tolodzkodas{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Tolodzkodas h1{
+    color: rgba(194, 179, 129, 100);
+}
+
+.Tolodzkodas #p1{
+    color: rgba(194, 179, 129, 100);
+    font-size: 22px;
+}
+
+.Tolodzkodas #p2{
+    color: rgba(194, 179, 129, 100);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+#felhuzasbutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#felhuzasbutton:hover { 
+    background-color: #555;
+  }
+
+  #guggolasbutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#guggolasbutton:hover { 
+    background-color: #555;
+  }
+
+  #tolobutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#tolobutton:hover { 
+    background-color: #555;
+  }
+
+  #lehuzasbutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#lehuzasbutton:hover { 
+    background-color: #555;
+  }
+
+  #fekvobutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#fekvobutton:hover { 
+    background-color: #555;
+  }
+
+  #kitoresbutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#kitoresbutton:hover { 
+    background-color: #555;
+  }
+
+  #vallbolbutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#vallbolbutton:hover { 
+    background-color: #555;
+  }
+
+  #evezesbutton{
+    border: none;
+    outline: none;
+    background-color: rgb(39, 39, 39);
+    
+    color: white;
+    cursor: pointer;
+
+    border-radius: 4px;
+}
+#evezesbutton:hover { 
+    background-color: #555;
+}
+
+.szgya img{
+    width: 80px;
+    float: left;
+    margin-left: 10%;
+}
+
+.footer{
+  text-align: left;
+}
+.hamnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    color: rgba(194, 179, 129, 100);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hamnav #myLinks {
+    display: none;
+  }
+  
+  .hamnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .hamnav a.icon {
+    background: var(--col-grey);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .hamnav a:hover {
+    background-color: var(--col-grey);
+    color: yellow;
+  }
+
+@media only screen and (min-device-width:9991386px){
+    .hamnav{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 1385px) {
+    nav ul{
+        display: none;
+    }
+    nav .logo{
+        float: none;
+        font-size: 26px;
+        font-weight: bold;
+        color: rgba(194, 179, 129, 100);
+        font-family: 'Courier New', monospace;
+        text-align: center;
+    }
+    .hamnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        color: rgba(194, 179, 129, 100);
+        text-align: center;
+      }
+      
+      .hamnav #myLinks {
+        display: none;
+      }
+      
+      .hamnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .hamnav a.icon {
+        background: var(--col-grey);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .hamnav a:hover {
+        background-color: var(--col-grey);
+        color: yellow;
+      }
+}
+
+
