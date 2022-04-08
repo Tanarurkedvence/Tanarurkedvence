@@ -368,7 +368,7 @@ nav ul li a:hover{
   
   .hamnav a:hover {
     background-color: var(--col-grey);
-    color: yellow;
+    color: red;
   }
 
 @media only screen and (min-device-width:9991386px){
@@ -419,7 +419,7 @@ nav ul li a:hover{
       
       .hamnav a:hover {
         background-color: var(--col-grey);
-        color: yellow;
+        color: red;
       }
 }
 
