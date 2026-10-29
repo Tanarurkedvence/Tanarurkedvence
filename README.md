@@ -20,7 +20,7 @@ In October 2026 I worked through a long set of practice exercises and pushed eac
 
 ### What you cannot see here, and why
 
-My largest project is a video pipeline in Python. 11,463 lines across 35 files. It watches a folder, picks the strongest segment of a long recording, cuts it vertical, adds word level captions and music, and uploads it to YouTube on a schedule. Four steps in one chain, no human click.
+My largest project is a video pipeline in Python. 14,510 lines across 34 files. It watches a folder, picks the strongest segment of a long recording, cuts it vertical, adds word level captions and music, and uploads it to YouTube on a schedule. Four steps in one chain, no human click.
 
 It's a business tool, so the source stays private. I'm glad to walk through it on a call or give read access on request. Just email me.
 
