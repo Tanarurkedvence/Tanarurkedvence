@@ -12,7 +12,7 @@ I finished technical college in 2026 as a software developer and tester (vocatio
 
 ### Projects
 
-**[Szerviz-foglaló](https://github.com/Tanarurkedvence/szerviz-foglalo)** is a booking system for a small car workshop. Customers book a time for an oil change or a brake job; mechanics see the day per lift and move each job from booked to in progress to done. ASP.NET Core 10 Web API, Entity Framework Core, React + TypeScript, Docker, with 54 xUnit and 29 frontend tests running in GitHub Actions. The browser and API tests live in **[szerviz-foglalo-e2e](https://github.com/Tanarurkedvence/szerviz-foglalo-e2e)** (Playwright for .NET, Postman). Built with Claude.
+**[Szerviz-foglaló](https://github.com/Tanarurkedvence/szerviz-foglalo)** is a booking system for a small car workshop. Customers book a time for an oil change or a brake job; mechanics see the day per lift and move each job from booked to in progress to done. ASP.NET Core 10 Web API, Entity Framework Core, React + TypeScript, Docker. GitHub Actions runs 54 xUnit tests, 29 frontend tests and 22 Playwright browser and API tests on every push. Built with Claude.
 
 **[BetMatchBonus](https://github.com/Tanarurkedvence/BetMatchBonus)** is a sports betting web app in PHP and MySQL, built by three of us as our exam project. The idea was mine. My part is the bet slip's combination checker, 28 rules about which two betting markets can't go on the same slip ("both teams to score" and "under 1.5 goals" can't both come in), and most of the bonus system.
 
