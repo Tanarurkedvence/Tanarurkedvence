@@ -1,34 +1,33 @@
 ## Marcell Urbán
 
-I build automation that runs on its own. Recording in, finished video out, no human click.
+Junior software developer from Hungary. C# / .NET, and I build with AI.
 
-I'm a junior developer from Hungary, out of technical college in 2026 (software developer and tester). I'm looking for a junior role in Python, .NET or web, remote or hybrid.
+I finished technical college in 2026 as a software developer and tester (vocational exam: 76%). I'm looking for a junior developer role in or near Budapest, and I can start right away.
 
-### Start here
+### How I work, honestly
 
-**[BabszemAPI](https://github.com/Tanarurkedvence/BabszemAPI)** is an ASP.NET Core Web API over SQL Server with Entity Framework Core. Eight endpoints, each documented with the status codes it actually returns, including the 409 you get when you try to delete a product that still has orders. Swagger is wired up and there's a `.http` file so you can fire the requests without a client.
+**On my own, without AI,** I write C# console applications at vocational exam level: reading data files, my own classes, LINQ queries.
 
-**[BetMatchBonus](https://github.com/Tanarurkedvence/BetMatchBonus)** is a sports betting web app in PHP and MySQL, built by three of us. The bet slip's combination checker is mine: 274 lines, 28 rules about which two betting markets can't go on the same slip. "Both teams to score" means at least two goals. "Under 1.5 goals" means at most one. They can't both come in, so they can't sit on one slip together. The odds API hands you the markets, but it won't tell you which two contradict each other.
+**With AI, mainly Claude,** I build much bigger things. I decide what the software has to do, guide the work step by step and try out the result. The projects below were made this way, and I say so in my CV too. What I want next is a team where my own coding catches up with what I can build with AI.
 
-**[LinqPeldak](https://github.com/Tanarurkedvence/LinqPeldak)** is 44 LINQ examples over 325 real records: filtering, grouping, set operations, both syntaxes, and a plain foreach version of the same query so you can see what LINQ is saving you.
+### Projects
 
-**[jegyzetek](https://tanarurkedvence.github.io/jegyzetek/)** is my own notes on C#, LINQ and Web APIs, with a search over them. I wrote it for myself and it is still the first place I look.
+**[Szerviz-foglaló](https://github.com/Tanarurkedvence/szerviz-foglalo)** is a booking system for a small car workshop. Customers book a time for an oil change or a brake job; mechanics see the day per lift and move each job from booked to in progress to done. ASP.NET Core 10 Web API, Entity Framework Core, React + TypeScript, Docker, with 54 xUnit and 29 frontend tests running in GitHub Actions. The browser and API tests live in **[szerviz-foglalo-e2e](https://github.com/Tanarurkedvence/szerviz-foglalo-e2e)** (Playwright for .NET, Postman). Built with Claude.
 
-### Why there is so much C# here
+**[BetMatchBonus](https://github.com/Tanarurkedvence/BetMatchBonus)** is a sports betting web app in PHP and MySQL, built by three of us as our exam project. The idea was mine. My part is the bet slip's combination checker, 28 rules about which two betting markets can't go on the same slip ("both teams to score" and "under 1.5 goals" can't both come in), and most of the bonus system.
 
-In October 2026 I worked through a long set of practice exercises and pushed each one as its own repository. Console apps, desktop GUIs, two Web APIs. They're small on purpose, and there are a lot of them, so the language bar on this account reads mostly C#. They're mine and they run, but the four above are the ones I'd actually show you.
+**RiftRaiders** is my game on Roblox. All of its code (Luau) was written with AI.
 
-### What you cannot see here, and why
+### Practice
 
-My largest project is a video pipeline in Python. 14,510 lines across 34 files. It watches a folder, picks the strongest segment of a long recording, cuts it vertical, adds word level captions and music, and uploads it to YouTube on a schedule. Four steps in one chain, no human click.
+The many small C# repositories here are exam practice from 2026: console apps, desktop GUIs and Web APIs such as [BabszemAPI](https://github.com/Tanarurkedvence/BabszemAPI), plus [LinqPeldak](https://github.com/Tanarurkedvence/LinqPeldak) (LINQ examples) and [jegyzetek](https://tanarurkedvence.github.io/jegyzetek/) (my notes on C#, LINQ and Web APIs).
 
-It's a business tool, so the source stays private. I'm glad to walk through it on a call or give read access on request. Just email me.
+### Skills
 
-One decision I'll defend in an interview: downloaded material that is not mine gets held back, and the bot asks before it goes anywhere. An automatic uploader plus a downloader is a re-publishing machine, and I didn't want to build one.
-
-### Stack
-
-C#, .NET, ASP.NET Core, Entity Framework Core, SQL Server, Python, JavaScript, PHP, MySQL, Kotlin, Docker, Git, REST APIs, ffmpeg, OAuth
+- **On my own:** C# console apps (classes, file handling, LINQ), Git basics
+- **Basic level:** SQL, HTML/CSS
+- **Used with AI:** ASP.NET Core, Entity Framework Core, React + TypeScript, PHP / MySQL, Roblox Studio (Luau), xUnit, Playwright, Docker, GitHub Actions
+- **AI tools:** Claude, GitHub Copilot, every day
 
 ### Contact
 
